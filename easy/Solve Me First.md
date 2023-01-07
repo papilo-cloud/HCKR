@@ -5,7 +5,7 @@ Complete the function solveMeFirst to compute the sum of two integers.
 ### Example
 
 Return 10
-
+ 
 ### Function Description
 
 Complete the solveMeFirst function in the editor below.
