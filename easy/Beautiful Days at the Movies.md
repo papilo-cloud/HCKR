@@ -39,8 +39,26 @@ A single line of three space-separated integers describing the respective values
 
 Lily may go to the movies on days 20, 21, 22, and 23. We perform the following calculations to determine which days are beautiful:
 
-Day  is beautiful because the following evaluates to a whole number: 
-Day  is not beautiful because the following doesn't evaluate to a whole number: 
-Day  is beautiful because the following evaluates to a whole number: 
-Day  is not beautiful because the following doesn't evaluate to a whole number: 
-Only two days,  and , in this interval are beautiful. Thus, we print  as our answer.
+* Day 20 is beautiful because the following evaluates to a whole number: (|20-02| / 6) = 18/6 = 3
+* Day 21 is not beautiful because the following doesn't evaluate to a whole number: (|21-12| / 6) = 9/6 = 1.5
+* Day 22 is beautiful because the following evaluates to a whole number: (|22-22| / 6) = 0/6 = 0
+* Day 23 is not beautiful because the following doesn't evaluate to a whole number: (|23-32| / 6) = 9/6 = 1.5
+
+Only two days, 20 and 22, in this interval are beautiful. Thus, we print 2 as our answer.
+
+## My Solution.
+
+```javascript
+    function beautifulDays(i, j, k) {
+        let beautiful = 0
+        for (let x = i; x <= j; x++) {
+            let str = x.toString()
+            let num = [...str].reverse().join('')
+            let ans = (((x - num)/k)%1 == 0)
+            if (ans) {
+                beautiful += 1
+            }
+        }
+        return beautiful
+    }
+```
