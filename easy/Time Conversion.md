@@ -39,3 +39,20 @@ A single string s that represents a time in 12-hour clock format (i.e.: hh:mm:ss
 ### Sample Output 0
 
 19:05:45
+
+##  My Solution
+
+```javascript
+    function timeConversion(s) {
+        const y = s.split(':')[0]
+        const num = Number(y) + 12
+        const am = s.substr(0, s.indexOf('AM'))
+        const x = y == 12 ?'12' + s.substr(2,6): num + s.substr(2,6)
+
+        if (s.includes('PM')) {
+            return x
+        }
+        const ans = y == 12 ? '00' +s.substr(2,6) : am
+        return ans
+    }
+```
