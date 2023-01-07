@@ -7,12 +7,14 @@ Given the arrival time of each student and a threshhold number of attendees, det
 ### Example
 
 **_n_ = 5**
+
 **_k_ = 3**
+
 **_a_ = [-2,-1,0,1,2]**
 
 The first **3** students arrived on. The last **2** were late. The threshold is **3** students, so class will go on. Return YES.
 
-**Note**: Non-positive arrival times (**_a_[_i_] <= 0) indicate the student arrived early or on time; positive arrival times (**_a_[_i_] > 0**) indicate the student arrived **_a_[_i_]** minutes late.
+**Note**: Non-positive arrival times (**_a_[_i_] <= 0***) indicate the student arrived early or on time; positive arrival times (**_a_[_i_] > 0**) indicate the student arrived **_a_[_i_]** minutes late.
 
 ### Function Description
 
@@ -45,20 +47,26 @@ The second line contains _**n**_ space-separated integers (**_a_[1],_a_[2],...,_
 ### Sample Input
 
 2
+
 4 3
+
 -1 -3 4 2
+
 4 2
+
 0 -1 2 1
-Sample Output
+
+### Sample Output
 
 YES
+
 NO
 
 ### Explanation
 
-For the first test case, **_k_ = 3. The professor wants at least **3** students in attendance, but only **2** have arrived on time ( **-3** and **-1**) so the class is cancelled.
+For the first test case, **_k_ = 3**. The professor wants at least **3** students in attendance, but only **2** have arrived on time ( **-3** and **-1**) so the class is cancelled.
 
-For the second test case, **_k_ = 2. The professor wants at least **2** students in attendance, and there are **2** who arrived on time (**0** and -**1**). The class is not cancelled.
+For the second test case, **_k_ = 2**. The professor wants at least **2** students in attendance, and there are **2** who arrived on time (**0** and -**1**). The class is not cancelled.
 
 ## My Solution.
 
