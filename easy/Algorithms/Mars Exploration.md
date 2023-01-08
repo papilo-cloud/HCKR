@@ -2,67 +2,105 @@
 
 A space explorer's ship crashed on Mars! They send a series of SOS messages to Earth for help.
 
-NASA_Mars_Rover.jpg
-<img src="https://s3.amazonaws.com/hr-challenge-images/16032/1453204202-9e3fd295bb-NASA_Mars_Rover.jpg" />
-
 ![alt text](https://s3.amazonaws.com/hr-challenge-images/16032/1453204202-9e3fd295bb-NASA_Mars_Rover.jpg "NASA_Mars_Rover")
 
-Letters in some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth as a string, , determine how many letters of the SOS message have been changed by radiation.
+Letters in some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth as a string, **_s_**, determine how many letters of the SOS message have been changed by radiation.
 
-Example
-
+### Example
+**_s_ = 'SOSTOT**
 
 The original message was SOSSOS. Two of the message's characters were changed in transit.
 
-Function Description
+### Function Description
 
 Complete the marsExploration function in the editor below.
 
 marsExploration has the following parameter(s):
 
-string s: the string as received on Earth
-Returns
+* string s: the string as received on Earth
+### Returns
 
-int: the number of letters changed during transmission
-Input Format
+* int: the number of letters changed during transmission
+### Input Format
 
-There is one line of input: a single string, .
+There is one line of input: a single string, **_s_**.
 
-Constraints
+### Constraints
 
- will contain only uppercase English letters, ascii[A-Z].
-Sample Input 0
-
+* **1 <= length of _s_ <= 99**
+* **length of _s_ modulo 3= 0**
+* **_s_** will contain only uppercase English letters, ascii[A-Z].
+### Sample Input 0
+<pre>
 SOSSPSSQSSOR
-Sample Output 0
+</pre>
 
+### Sample Output 0
+<pre>
 3
-Explanation 0
+</pre>
 
- = SOSSPSSQSSOR, and signal length . They sent  SOS messages (i.e.: ).
+### Explanation 0
 
+**_s_ = SOSSPSSQSSOR**, and signal length **|_s_| = 12**. They sent **_4_** SOS messages (i.e.: **12/3 = 4** ).
+<pre>
 Expected signal: SOSSOSSOSSOS
 Recieved signal: SOSSPSSQSSOR
 Difference:          X  X   X
-Sample Input 1
+</pre>
 
+### Sample Input 1
+<pre>
 SOSSOT
-Sample Output 1
+</pre>
 
+### Sample Output 1
+<pre>
 1
-Explanation 1
+</pre>
 
- = SOSSOT, and signal length . They sent  SOS messages (i.e.: ).
+### Explanation 1
 
+**_s_ = SOSSOT**, and signal length **|_s_| = 6**. They sent 2  SOS messages (i.e.: **6/3 = 2** ).
+<pre>
 Expected Signal: SOSSOS     
 Received Signal: SOSSOT
 Difference:           X
-Sample Input 2
+</pre>
 
+### Sample Input 2
+<pre>
 SOSSOSSOS
-Sample Output 2
-
+</pre>
+### Sample Output 2
+<pre>
 0
-Explanation 2
+</pre>
+### Explanation 2
 
 Since no character is altered, return 0.
+
+## My Solution
+
+```javascript
+    function marsExploration(s) {
+        let res = [...s].map((d, i) => (i) % 3 == 0 ? ' ' + d : d).join('')
+        let r = res.split(' ')
+  
+    let p;
+    let count = 0
+    for (let i = 1; i < r.length; i++) {
+        p = r[i]
+        if (p[0] !== 'S') {
+            count++
+        }
+        if (p[1] !== 'O') {
+            count++
+        }
+        if (p[2] !== 'S') {
+            count++
+        }
+    }
+    return count
+}
+```
