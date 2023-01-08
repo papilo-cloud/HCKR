@@ -7,7 +7,7 @@ Your task is to find the minimum number of required deletions.
 ### Example
 **_s_ = _AABAAB_**
 
-Remove an **_A_** at positions **0** and **3** to make **_s- = -ABAB-** in **2** deletions.
+Remove an **_A_** at positions **0** and **3** to make **_s_ = _ABAB_** in **2** deletions.
 
 ### Function Description
 
@@ -56,7 +56,7 @@ AAABBB
 
 The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
 
-<div style="font-weight:600; margin-left: 10%; text-align-center">
+<div style="font-weight:600; margin-left: 10%; text-align: left">
 
     A<span style="color: red">AAA</span> -> A (3 deletions)<br>
     B<span style="color: red">BBBB</span> -> B (4 deletions)<br>
