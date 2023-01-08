@@ -1,3 +1,6 @@
+<style>
+red { color: red }
+</style>
 # Alternating Characters.
 
 You are given a string containing characters **_A_** and **_B_** only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
@@ -56,9 +59,6 @@ AAABBB
 
 The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
 
-<style>
-red { color: red }
-</style>
 A<red>AAA</red> -> A (3 deletions)<br>
 B<red>BBBB</red> -> B (4 deletions)<br>
 ABABABAB -> ABABABAB (0 deletions)<br>
