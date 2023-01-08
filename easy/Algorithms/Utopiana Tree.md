@@ -6,7 +6,7 @@ A Utopian Tree sapling with a height of 1 meter is planted at the onset of sprin
 
 For example, if the number of growth cycles is **_n_ = 5**, the calculations are as follows:
 
-```
+<pre>
 Period  Height
 0          1
 1          2
@@ -14,7 +14,7 @@ Period  Height
 3          6
 4          7
 5          14
-```
+</pre>
 
 ### Function Description
 
