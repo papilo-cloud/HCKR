@@ -24,6 +24,7 @@ angryProfessor has the following parameter(s):
 
 * int k: the threshold number of students
 * int a[n]: the arrival times of the **_n_** students
+
 ### Returns
 
 * string: either YES or NO
@@ -41,8 +42,8 @@ The second line contains _**n**_ space-separated integers (**_a_[1],_a_[2],...,_
 
 * **1 <= _t_ <= 10**
 * **1 <= _n_ <= 1000**
-* **1 <= _k_ <= 10**
-* **-1000 <= _a_[_i_] <= 100, _where i_ E [1,..._n_]**
+* **1 <= _k_ <= _n_**
+* **-100 <= _a_[_i_] <= 100, _where i_ E [1,..._n_]**
 
 ### Sample Input
 

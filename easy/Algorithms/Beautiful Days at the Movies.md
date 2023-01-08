@@ -27,7 +27,7 @@ A single line of three space-separated integers describing the respective values
 ### Constraints
 
 * **1 <= _i_ <= _j_ <= 2 x 10<sup>6</sup>**
-* **1 <= _k_ <= 2 x 10<sup>6</sup>**
+* **1 <= _k_ <= 2 x 10<sup>9</sup>**
 
 ### Sample Input
 
