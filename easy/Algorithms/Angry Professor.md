@@ -14,7 +14,7 @@ Given the arrival time of each student and a threshhold number of attendees, det
 
 The first **3** students arrived on. The last **2** were late. The threshold is **3** students, so class will go on. Return YES.
 
-**Note**: Non-positive arrival times (**_a_[_i_] <= 0***) indicate the student arrived early or on time; positive arrival times (**_a_[_i_] > 0**) indicate the student arrived **_a_[_i_]** minutes late.
+**Note**: Non-positive arrival times (**_a_[_i_] <= 0**) indicate the student arrived early or on time; positive arrival times (**_a_[_i_] > 0**) indicate the student arrived **_a_[_i_]** minutes late.
 
 ### Function Description
 

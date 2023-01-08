@@ -4,7 +4,11 @@ Complete the function solveMeFirst to compute the sum of two integers.
 
 ### Example
 
-Return 10
+**_a_ = 7**
+
+**_b_ = 3**
+
+Return **10**
  
 ### Function Description
 
@@ -17,24 +21,26 @@ solveMeFirst has the following parameters:
 * int b: the second value
 
 Returns
-- int: the sum of a and b
+
+/- int: the sum of **_a_** and **_b_**
 
 ### Constraints
 
-1 <= a, b <= 1000
+**1 <= _a_, _b_ <= 1000**
 
 
-Sample Input
+### Sample Input
 a = 2
+
 b = 3
 
-Sample Output
+### Sample Output
 5
 
-Explanation
-2 + 3 = 5
+### Explanation
+**2 + 3 = 5**
 
-##  My Solution
+##  My Solution.
 
 ```javascript
     function solveMeFirst(a, b) {
