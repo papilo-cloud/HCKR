@@ -56,7 +56,7 @@ AAABBB
 
 The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
 
-<div style="font-weight:600; margin-left: 10%; text-align: left">
+<div style="font-weight:600; margin-left: 10%; text-align:center">
 
     A<span style="color: red">AAA</span> -> A (3 deletions)<br>
     B<span style="color: red">BBBB</span> -> B (4 deletions)<br>
