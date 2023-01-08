@@ -56,14 +56,13 @@ AAABBB
 
 The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
 
-<span style="color:red;font-weight:700;font-size:20px">
-
-    markdown color font styles
-
-</span>
-
-`#0077ff`
-
+<div style="font-weight: 600; margin-left: 10%; text-align: center">
+A<span style="color: red">AAA</span> -> A (3 deletions)<br>
+B<span style="color: red">BBBB</span> -> B (4 deletions)<br>
+ABABABAB -> ABABABAB (0 deletions)<br>
+BABABA -> BABABA (0 deletions)<br>
+A<span style="color: red">AA</span>B<span style="color: red">BB</span> -> AB (4 deletions)
+</div>
 
 ## My Solution.
 
