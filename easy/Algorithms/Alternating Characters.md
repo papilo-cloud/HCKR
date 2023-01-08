@@ -57,7 +57,9 @@ AAABBB
 The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
 
 <span style="color:red;font-weight:700;font-size:20px">
- markdown color font styles
+
+    markdown color font styles
+
 </span>
 
 `#0077ff`
