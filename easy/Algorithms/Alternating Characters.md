@@ -64,6 +64,8 @@ B<red>BBBB</red> -> B (4 deletions)<br>
 ABABABAB -> ABABABAB (0 deletions)<br>
 BABABA -> BABABA (0 deletions)<br>
 A<red>AA</red>B<red>BB</red> -> AB (4 deletions)
+<p><red> red color markdown text</red>
+<yellow> red color markdown text</yellow></p>
 
 ## My Solution.
 
