@@ -54,7 +54,7 @@ AAABBB
 
 ### Explanation
 
-The characters marked red are the ones that can be deleted so that the string does not have matching adjacent characters.
+The characters bolder are the ones that can be deleted so that the string does not have matching adjacent characters.
 
 A**AAA** -> A (3 deletions)<br>
 B**BBBB** -> B (4 deletions)<br>
