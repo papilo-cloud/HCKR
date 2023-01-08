@@ -22,7 +22,7 @@ solveMeFirst has the following parameters:
 
 Returns
 
-/- int: the sum of **_a_** and **_b_**
+-/ int: the sum of **_a_** and **_b_**
 
 ### Constraints
 
