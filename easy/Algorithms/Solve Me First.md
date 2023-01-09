@@ -30,12 +30,14 @@ Returns
 
 
 ### Sample Input
+<pre>
 a = 2
-
 b = 3
-
+</pre>
 ### Sample Output
+<pre>
 5
+</pre>
 
 ### Explanation
 **2 + 3 = 5**

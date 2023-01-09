@@ -7,11 +7,11 @@ Given a time in **12**-hour AM/PM format, convert it to military (24-hour) time.
 
 ### Example
 
-* **s = '12:01:00PM'**
+* **_s_ = '12:01:00PM'**
 
 Return '12:01:00'.
 
-* **s = '12:01:00AM'**
+* **_s_ = '12:01:00AM'**
 
 Return '00:01:00'.
 
@@ -34,13 +34,13 @@ A single string **_s_** that represents a time in **12**-hour clock format (i.e.
 * All input times are valid
 
 ### Sample Input 0
-
+<pre>
 07:05:45PM
-
+</pre>
 ### Sample Output 0
-
+<pre>
 19:05:45
-
+</pre>
 ##  My Solution
 
 ```javascript

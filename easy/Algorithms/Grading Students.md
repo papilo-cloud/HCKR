@@ -64,4 +64,16 @@ Each line **_i_** of the **_n_** subsequent lines contains a single integer, **g
 1. Student **4** received a grade below **33**, so the grade will not be modified and the student's final grade is **33**.
 
 ## My Solution
-
+```javascript
+function gradingStudents(grades) {
+    var bn=[] ;
+    for (let i in grades) {
+        if (grades[i] >= 38) {
+            const x =((grades[i] - grades[i]%5) + 5) - grades[i]
+            grades[i] = x < 3 ? grades[i] + x : grades[i]
+        }
+        bn.push(grades[i])
+    }
+      return bn   
+}
+```
