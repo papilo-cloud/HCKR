@@ -69,7 +69,7 @@ Anna didn't eat item **_bill_[1]**, but she shared the rest of the items with Br
 
 # My Solution.
 
-```javascrit
+```javascript
     function bonAppetit(bill, k, b) {
         const annaSum = bill.filter((x,i) =>  (i != k) )
         const sum = annaSum.reduce((a,b) => a + b)
