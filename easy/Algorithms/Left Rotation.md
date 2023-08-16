@@ -4,7 +4,9 @@ A left rotation operation on an array of size ***n*** shifts each of the array's
 
 ### Example
 **_d_ = 2**
+
 **_arr_ = [1,2,3,4,5]**
+
 After **2** rotations, **_arr'_ = [1,2,3,4,5]** .
 
 ### Function Description
@@ -45,9 +47,8 @@ The second line contains ***n*** space-separated integers that describe **_n_[]*
 
 To perform **_d_ = 4** left rotations, the array undergoes the following sequence of changes:
 
-```mermaid
-    [1,2,3,4,5] --> [2,3,4,5,1] --> [3,4,5,1,2] --> [4,5,1,2,3] --> [5,1,2,3,4]
-```
+**[1,2,3,4,5] --> [2,3,4,5,1] --> [3,4,5,1,2] --> [4,5,1,2,3] --> [5,1,2,3,4]**
+
 
 ## My Solution.
 
