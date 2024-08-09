@@ -242,3 +242,51 @@
 
     ### Explanation 1
     Anna didn't eat item **_bill_[1]**, but she shared the rest of the items with Brian. The total cost of the shared items is **3 + 2 + 9 = 14** and, split in half, the cost per person is **_b<sub>actual</sub>_ = 7**. Because **_b<sub>actual</sub>_ = _b<sub>charged</sub>_ = 7**, we print <pre>Bon Appetit</pre> on a new line.
+
+5. [Camel Case](https://github.com/papilo-cloud/HCKR/blob/main/Javascript/Algorithms/camelCase.js) There is a sequence of words in CamelCase as a string of letters, **_s_**, having the following properties:
+
+    * It is a concatenation of one or more words consisting of English letters.
+    * All letters in the first word are lowercase.
+    * For each of the subsequent words, the first letter is uppercase and rest of the letters are lowercase.
+
+    Given **_s_**, determine the number of words in **_s_**.
+
+    ### Example
+    **_s_ = _oneTwoThree_**
+
+    There are **3** words in the string: 'one', 'Two', 'Three'.
+
+    ### Function Description
+
+    Complete the camelcase function in the editor below.
+
+    camelcase has the following parameter(s):
+
+    * string s: the string to analyze
+    ### Returns
+
+    * int: the number of words in **_s_**
+    ### Input Format
+
+    A single line containing string **_s_**.
+
+    ### Constraints
+    * **1 <= length of _s_ <= 10<sup>5</sup>**
+
+    ### Sample Input
+    <pre>
+    saveChangesInTheEditor
+    </pre>
+    ### Sample Output
+    <pre>
+    5
+    </pre>
+    ### Explanation
+
+    String **_s_** contains five words:
+
+    1. save
+    1. Changes
+    1. In
+    1. The
+    1. Editor
