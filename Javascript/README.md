@@ -636,3 +636,5 @@
 
     There are **3** positive numbers, **2** negative numbers, and **1** zero in the array.
     The proportions of occurrence are positive: **3/6 = 0.500000**, negative: **2/6 = 0.333333** and zeros: **2/6 = 0.166667**.
+
+11. [Simple Array Sum](https://github.com/papilo-cloud/HCKR/blob/main/Javascript/Algorithms/arraySum.js)
