@@ -2,7 +2,7 @@
 
 1. ## [Strings](#strings)
 1. ## [Stacks](#stacks)
-3. ## [Linked List](#Linked List)
+3. ## [Linked List](#LinkedList)
 
 
 ### Strings
