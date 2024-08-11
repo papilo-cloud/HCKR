@@ -97,7 +97,7 @@
 
     All three stacks now have , the value to return.
 
-### Linked List
+### LinkedList
 
 1. [Print the Element of a Linked List](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/print_linked_list.py) Given a pointer to the head node of a linked list, print each node's __*data*__ element, one per line. If the head pointer is null (indicating the list is empty), there is nothing to print.
 
