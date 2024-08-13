@@ -97,6 +97,33 @@
 
     All three stacks now have , the value to return.
 
+5. [Largest Rectangle](https://github.com/papilo-cloud/HCKR/blob/main/Python/stacks/largest_rectangle.py) Skyline Real Estate Developers is planning to demolish a number of old, unoccupied buildings and construct a shopping mall in their place. Your task is to find the largest solid area in which the mall can be constructed.
+
+    There are a number of buildings in a certain two-dimensional landscape. Each building has a height, given by __*h*[*i*] where *i* E [1,n]__. If you join __*k*__ adjacent buildings, they will form a solid rectangle of area __*k* x *min*(*h*[*i*],*h*[*i* + 1],....,*h*[*i* + *k* - 1])__.
+
+    #### Example
+
+    __*h* = [3,2,3]__
+
+    A rectangle of height __*h* = 2__ and length __*k* = 3__ can be constructed within the boundaries. The area formed is __*h*.*k* = 2.3 = 6__.
+
+    #### Function Description
+
+    Complete the function <pre>largestRectangle</pre> int the editor below. It should return an integer representing the largest rectangle that can be formed within the bounds of consecutive buildings.
+
+    largestRectangle has the following parameter(s):
+
+    int h[n]: the building heights
+    #### Returns
+    - long: the area of the largest rectangle that can be formed within the bounds of consecutive buildings
+
+    #### Explanation
+
+    An explanation of the test case follows.
+
+    ![Image](https://s3.amazonaws.com/hr-challenge-images/8136/1436794554-75e178e325-drawing47.svg)
+
+
 ### LinkedList
 
 1. [Print the Element of a Linked List](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/print_linked_list.py) Given a pointer to the head node of a linked list, print each node's __*data*__ element, one per line. If the head pointer is null (indicating the list is empty), there is nothing to print.
