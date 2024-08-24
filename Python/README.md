@@ -123,6 +123,15 @@
 
     ![Image](https://s3.amazonaws.com/hr-challenge-images/8136/1436794554-75e178e325-drawing47.svg)
 
+6. [Game of Two Stacks](https://github.com/papilo-cloud/HCKR/blob/main/Python/stacks/two_stacks.py) Alexa has two stacks of non-negative integers, stack __*a[n]*__ and stack __*b[m]*__ where index __0__ denotes the top of the stack. Alexa challenges Nick to play the following game:
+
+    - In each move, Nick can remove one integer from the top of either stack __*a*__ or stack __*b*__.
+
+    - Nick keeps a running sum of the integers he removes from the two stacks.
+
+    - Nick is disqualified from the game if, at any point, his running sum becomes greater than some integer __*maxSum*__ given at the beginning of the game.
+    - Nick's final score is the total number of integers he has removed from the two stacks.
+
 
 ### LinkedList
 
