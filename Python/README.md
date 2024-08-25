@@ -3,6 +3,7 @@
 1. ## [Strings](#strings)
 1. ## [Stacks](#stacks)
 3. ## [Linked List](#LinkedList)
+4. ## [Search](#Search)
 
 
 ### Strings
@@ -147,3 +148,41 @@
     #### Print
 
     For each node, print its __*data*__  value on a new line (console.log in Javascript).
+
+2. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+3. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+4. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+5. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+
+### Search
+
+1. [Missing Numbers](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/missing-numbers.py) Given two arrays of integers, find which elements in the second array are missing from the first array.
+
+    #### Example
+    __*arr*__ = __[7,2,5,3,5,3]__
+    __*brr*__ = __[7,2,5,4,6,3,5,3]__
+
+    The __*brr*__ array is the orginal list. The numbers missing are __[4,6]__.
+
+    #### Notes
+    - If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.
+    - Return the missing numbers sorted ascending.
+    - Only include a missing number once, even if it is missing multiple times.
+    - The difference between the maximum and minimum numbers in the original list is less than or equal to __100__.
+
+1. [Ice Cream Parlor](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/icecream-parlor.py) Two friends like to pool their money and go to the ice cream parlor. They always choose two distinct flavors and they spend all of their money.
+
+    Given a list of prices for the flavors of ice cream, select the two that will cost all of the money they have.
+
+    #### Example.  
+    __*m* = 6, *cost* = [1,3,4,5,6]__
+
+    The two flavors that cost __1__ and __5__ meet the criteria. Using __1__-based indexing, they are at indices __1__ and __4__.
+
+1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
+1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
+1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
