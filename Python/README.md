@@ -183,6 +183,14 @@
 
     The two flavors that cost __1__ and __5__ meet the criteria. Using __1__-based indexing, they are at indices __1__ and __4__.
 
-1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
+1. [Pairs](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/pairs.py) Given an array of integers and a target value, determine the number of pairs of array elements that have a difference equal to the target value.
+
+    #### Example
+    __*k* = 1__
+    __*arr* = [1,2,3,4]__
+
+
+There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__, and __4 - 3 = 1__. Return __3__.
+
 1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
 1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
