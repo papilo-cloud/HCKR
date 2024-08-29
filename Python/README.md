@@ -202,4 +202,4 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     ![Images](https://s3.amazonaws.com/hr-assets/0/1527626183-88c8070977-isitBSTSample0.png)
 
-2. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
+2. [Binary Search Tree: insertion](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/insertion.py) You are given a pointer to the root of a binary search tree and values to be inserted into the tree. Insert the values into their appropriate position in the binary search tree and return the root of the updated binary tree. You just have to complete the function.
