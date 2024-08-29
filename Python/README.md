@@ -314,7 +314,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
 
 ### Sorting
-1. []() Sorting is useful as the first step in many different tasks. The most common task is to make finding things easier, but there are other uses as well. In this case, it will make it easier to determine which pair or pairs of elements have the smallest absolute difference between them.
+1. [Closest Numbers](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/closest_num.py) Sorting is useful as the first step in many different tasks. The most common task is to make finding things easier, but there are other uses as well. In this case, it will make it easier to determine which pair or pairs of elements have the smallest absolute difference between them.
 
     #### Example
     __*arr*__ = __[5, 2, 3, 4, 1]__
