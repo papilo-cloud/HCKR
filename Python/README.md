@@ -177,7 +177,21 @@
 
     - SinglyLinkedListNode pointer: reference to the head of the modified linked list
 
-5. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+5. [Insert a Node at the Head](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/insert_node_at_head.py) Given a pointer to the head of a linked list, insert a new node before the head. The __*next*__ value in the new node should point to __*head*__ and the __*data*__ value should be replaced with a given value. Return a reference to the new head of the list. The head pointer given may be null meaning that the initial list is empty.
+
+    #### Function Description
+
+    Complete the function insertNodeAtHead in the editor below.
+
+    insertNodeAtHead has the following parameter(s):
+
+    - SinglyLinkedListNode llist: a reference to the head of a list
+    - data: the value to insert in the __*data*__ field of the new node
+    #### Input Format
+
+    The first line contains an integer __*n*__, the number of elements to be inserted at the head of the list.
+    The next __*n*__ lines contain an integer each, the elements to be inserted, one per function call.
+
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
