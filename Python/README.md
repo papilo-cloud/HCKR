@@ -5,6 +5,8 @@
 3. ## [Linked List](#linkedList)
 4. ## [Search](#search)
 5. ## [Tree](#tree)
+6. ## [Sorting](#sorting)
+7. ## [Array](#array)
 
 
 ### Strings
