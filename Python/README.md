@@ -1,7 +1,7 @@
 # Hackerrank Archive
 
 1. ## [Strings](#strings)
-1. ## [Stacks](#stacks)
+1. ## [Stacks](#stack)
 3. ## [Linked List](#linkedList)
 4. ## [Search](#search)
 5. ## [Tree](#tree)
