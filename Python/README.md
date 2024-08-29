@@ -202,7 +202,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     ![Images](https://s3.amazonaws.com/hr-assets/0/1527626183-88c8070977-isitBSTSample0.png)
 
-2. [Binary Search Tree: insertion](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/insertion.py) You are given a pointer to the root of a binary search tree and values to be inserted into the tree. Insert the values into their appropriate position in the binary search tree and return the root of the updated binary tree. You just have to complete the function.
+2. [Binary Search Tree: insertion](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/insert.py) You are given a pointer to the root of a binary search tree and values to be inserted into the tree. Insert the values into their appropriate position in the binary search tree and return the root of the updated binary tree. You just have to complete the function.
 
 3. [Preorder Traversal](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/preorder_traversal.py) Complete the __*preOrder*__ function in the editor below, which has  parameter: a pointer to the root of a binary tree. It must print the values in the tree's preorder traversal as a single line of space-separated values.
 
