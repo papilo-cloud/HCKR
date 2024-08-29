@@ -150,7 +150,17 @@
 
     For each node, print its __*data*__  value on a new line (console.log in Javascript).
 
-2. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+2. [Print in Reverse](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/reverse_print.py) Given a pointer to the head of a singly-linked list, print each  value from the reversed list. If the given list is empty, do not print anything.
+
+    #### Example
+
+    __*head*__ refers to the linked list with __*data*__ values __1 -- 2 -- 3 -- *NULL*__ 
+
+    Print the following:
+    3
+    2
+    1
+
 3. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 4. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 5. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
