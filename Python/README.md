@@ -161,7 +161,8 @@
     2
     1
 
-3. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+3. [Print Elements](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/print_linked_list.py) This is an to practice traversing a linked list. Given a pointer to the head node of a linked list, print each node's __*data*__ element, one per line. If the head pointer is null (indicating the list is empty), there is nothing to print.
+
 4. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 5. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
