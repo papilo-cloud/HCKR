@@ -236,3 +236,38 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     <pre>
         1 2 5 3 4 6
     </pre>
+
+4. [Inorder Traversal](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/inorder.py) In this challenge, you are required to implement inorder traversal of a tree.
+
+    Complete the __*inOrder*__ function in your editor below, which has  parameter: a pointer to the root of a binary tree. It must print the values in the tree's inorder traversal as a single line of space-separated values.
+
+     #### Input Format
+
+    Our hidden tester code passes the root node of a binary tree to your $inOrder* function.
+
+    #### Constraints
+
+    __1__ <= __*Nodes in the tree*__  <= __500__
+
+    #### Output Format
+
+    Print the tree's inorder traversal as a single line of space-separated values.
+
+    #### Sample Input
+    <pre>
+    1
+      \
+       2
+        \
+         5
+        /  \
+       3    6
+        \
+         4  
+    </pre>
+
+    #### Sample Output
+
+    <pre>
+        1 2 3 4 5 6
+    </pre>
