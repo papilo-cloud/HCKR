@@ -163,7 +163,20 @@
 
 3. [Print Elements](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/print_linked_list.py) This is an to practice traversing a linked list. Given a pointer to the head node of a linked list, print each node's __*data*__ element, one per line. If the head pointer is null (indicating the list is empty), there is nothing to print.
 
-4. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
+4. [Insert a Node at the Tail](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/insert_node_at_tail.py) You are given the pointer to the head node of a linked list and an integer to add to the list. Create a new node with the given integer. Insert this node at the tail of the linked list and return the head node of the linked list formed after inserting this new node. The given head pointer may be null, meaning that the initial list is empty.
+
+    #### Function Description
+
+    Complete the insertNodeAtTail function in the editor below.
+
+    insertNodeAtTail has the following parameters:
+
+    - SinglyLinkedListNode pointer head: a reference to the head of a list
+    - int data: the data value for the node to insert
+    #### Returns
+
+    - SinglyLinkedListNode pointer: reference to the head of the modified linked list
+
 5. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
 6. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/LinkedList/.py)
