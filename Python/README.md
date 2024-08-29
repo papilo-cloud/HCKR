@@ -2,8 +2,9 @@
 
 1. ## [Strings](#strings)
 1. ## [Stacks](#stacks)
-3. ## [Linked List](#LinkedList)
-4. ## [Search](#Search)
+3. ## [Linked List](#linkedList)
+4. ## [Search](#search)
+5. ## [Tree](#tree)
 
 
 ### Strings
@@ -194,3 +195,11 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
 1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
 1. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
+
+### Tree
+
+1. [Height of a Binary Tree](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/max_height.py) The height of a binary tree is the number of edges between the tree's root and its furthest leaf. For example, the following binary tree is of height __2__:
+
+    ![Images](https://s3.amazonaws.com/hr-assets/0/1527626183-88c8070977-isitBSTSample0.png)
+
+2. [](https://github.com/papilo-cloud/HCKR/blob/main/Python/search/.py)
