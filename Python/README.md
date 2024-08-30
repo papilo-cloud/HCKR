@@ -332,3 +332,20 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 3. [Insertion Sort 1](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/insertion_a.py)
     #### Insertion Sort
     These challenges will cover Insertion Sort, a simple and intuitive sorting algorithm. We will first start with a nearly sorted list.
+
+4. [Insertion Sort 2](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/insertion_b.py) In this challenge, print the array after each iteration of the insertion sort, i.e., whenever the next element has been inserted at its correct position. Since the array composed of just the first element is already sorted, begin printing after placing the second element.
+
+    #### Example.
+
+    __*n* = 7__
+    __*arr* = [3, 4, 7, 5, 6, 2, 1]__
+
+    Working from left to right, we get the following output:
+    <pre>
+    3 4 7 5 6 2 1
+    3 4 7 5 6 2 1
+    3 4 5 7 6 2 1
+    3 4 5 6 7 2 1
+    2 3 4 5 6 7 1
+    1 2 3 4 5 6 7
+    </pre>
