@@ -376,3 +376,19 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     #### Challenge
     Given a list of integers, count and return the number of times each value appears as an array of integers.
+
+7. [Counting Srot 2](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/counting_sort_b.py) The counting sort is used if you just need to sort a list of integers. Rather than using a comparison, you create an integer array whose index range covers the entire range of values in your array to sort. Each time a value occurs in the original array, you increment the counter at that index. At the end, run through your counting array, printing the value of each non-zero valued index that number of times.
+
+    For example, consider an array __*arr* = [1, 1, 3, 2, 1]__. All of the values are in the range __[0...3]__, so create an array of zeroes, __*result* = [0,0,0,0]__. The results of each iteration follow:
+    <pre>
+        i	arr[i]	result
+        0	1	[0, 1, 0, 0]
+        1	1	[0, 2, 0, 0]
+        2	3	[0, 2, 0, 1]
+        3	2	[0, 2, 1, 1]
+        4	1	[0, 3, 1, 1]
+    </pre>
+    Now we can print the sorted array: __*sorted* = [1, 1, 1, 2, 3]__.
+
+    #### Challenge
+    Given an unsorted list of integers, use the counting sort method to sort the list and then print the sorted list.
