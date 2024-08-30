@@ -325,6 +325,10 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     Given a list of unsorted integers, __*arr*__, find the pair of elements that have the smallest absolute difference between them. If there are multiple pairs, find them all.
 
-    2. [Running Time of Insertion Sort](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/running_time.py) 
+2. [Running Time of Insertion Sort](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/running_time.py) 
 
-        ![Image](https://s3.amazonaws.com/hr-challenge-images/insertion-sort/InsertionSortRunningTime-small.png)
+    ![Image](https://s3.amazonaws.com/hr-challenge-images/insertion-sort/InsertionSortRunningTime-small.png)
+
+3. [Insertion Sort 1](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/insertion_a.py)
+    #### Insertion Sort
+    These challenges will cover Insertion Sort, a simple and intuitive sorting algorithm. We will first start with a nearly sorted list.
