@@ -342,10 +342,12 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     Working from left to right, we get the following output:
     <pre>
-    3 4 7 5 6 2 1
-    3 4 7 5 6 2 1
-    3 4 5 7 6 2 1
-    3 4 5 6 7 2 1
-    2 3 4 5 6 7 1
-    1 2 3 4 5 6 7
+        3 4 7 5 6 2 1
+        3 4 7 5 6 2 1
+        3 4 5 7 6 2 1
+        3 4 5 6 7 2 1
+        2 3 4 5 6 7 1
+        1 2 3 4 5 6 7
     </pre>
+
+5. [Quicksoer 1 - Partition](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/partition.py)
