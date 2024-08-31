@@ -392,3 +392,22 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
     #### Challenge
     Given an unsorted list of integers, use the counting sort method to sort the list and then print the sorted list.
+
+8. [The Full Counting Sort](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/counting_sort.py) Use the counting sort to order a list of strings associated with integers. If two strings are associated with the same integer, they must be printed in their original order, i.e. your sorting algorithm should be stable. There is one other twist: strings in the first half of the array are to be replaced with the character - (dash, ascii 45 decimal).
+
+    Insertion Sort and the simple version of Quicksort are stable, but the faster in-place version of Quicksort is not since it scrambles around elements while sorting.
+
+    Design your counting sort to be stable.
+
+    #### Example
+    __*arr* = [[0, 'a'], [1, 'b'], [0, 'c'], [1, 'd']]__
+    The first two strings are replaced with '-'. Since the maximum associated integer is __1__, set up a helper array with at least two empty arrays as elements. The following shows the insertions into an array of three empty arrays.
+    <pre>
+        i	string	converted	list
+        0				[[],[],[]]
+        1 	a 	-		[[-],[],[]]
+        2	b	-		[[-],[-],[]]
+        3	c			[[-,c],[-],[]]
+        4	d			[[-,c],[-,d],[]]
+    </pre>
+    The result is then printed:  __- c - d__.
