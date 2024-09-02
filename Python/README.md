@@ -312,6 +312,22 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
         1 2 3 4 5 6
     </pre>
 
+5. [Level Order Traversal](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/level_order.py) Given a pointer to the root of a binary tree, you need to print the level order traversal of this tree. In level-order traversal, nodes are visited level by level from left to right. Complete the function  __*levelOrder*__ and print the values in a single line separated by a space.
+    #### For example:
+    <pre>
+     1
+      \
+       2
+        \
+         5
+        /  \
+       3    6
+        \
+         4  
+    </pre>
+    For the above tree, the level order traversal is
+    __1-> 2-> 5-> 3-> 6-> 4__.
+
 
 ### Sorting
 1. [Closest Numbers](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/closest_num.py) Sorting is useful as the first step in many different tasks. The most common task is to make finding things easier, but there are other uses as well. In this case, it will make it easier to determine which pair or pairs of elements have the smallest absolute difference between them.
