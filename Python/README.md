@@ -7,6 +7,7 @@
 5. ## [Tree](#tree)
 6. ## [Sorting](#sorting)
 7. ## [Array](#array)
+8. ## [Implementation](#implementation)
 
 
 ### Strings
@@ -445,3 +446,21 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
         4	d			[[-,c],[-,d],[]]
     </pre>
     The result is then printed:  __- c - d__.
+
+### Implementation
+
+1. [Subarray Division](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/birthday.py) Two children, Lily and Ron, want to share a chocolate bar. Each of the squares has an integer on it.
+
+    Lily decides to share a contiguous segment of the bar selected such that:
+
+    - The length of the segment matches Ron's birth month, and,
+    - The sum of the integers on the squares is equal to his birth day.
+
+    Determine how many ways she can divide the chocolate.
+
+    #### Example
+    __*s* = [2, 2, 1, 3, 2]__
+    __*d* = 4__
+    __*m* = 2__
+
+    Lily wants to find segments summing to Ron's birth day, __*d* = 4__ with a length equalling his birth month, __*m* = 2__. In this case, there are two segments meeting her criteria: __[2, 2]__ and __[1, 3]__.
