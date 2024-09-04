@@ -466,6 +466,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     Lily wants to find segments summing to Ron's birth day, __*d* = 4__ with a length equalling his birth month, __*m* = 2__. In this case, there are two segments meeting her criteria: __[2, 2]__ and __[1, 3]__.
 
 2. [DEsigner PDF Viewer](https://github.com/papilo-cloud/HCKR/blob/main/Python/Implementation/designer_pdf.py) When a contiguous block of text is selected in a PDF viewer, the selection is highlighted with a blue rectangle. In this PDF viewer, each word is highlighted independently. For example:
+    
     ![Image](https://s3.amazonaws.com/hr-challenge-images/22869/1471640108-6c01750b16-PDF-highighting.png)
 
     #### Example
