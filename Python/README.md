@@ -519,3 +519,33 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     4  
     9 
     </pre>
+
+- [Jesse and Cookies](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q-heap.py) Jesse loves cookies and wants the sweetness of some cookies to be greater than value __*k*__. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
+
+    sweetness = (__1__ x Least sweet cookie + __2__ x 2nd least sweet cookie).
+
+    This occurs until all the cookies have a sweetness __>= *k*__.
+
+    Given the sweetness of a number of cookies, determine the minimum number of operations required. If it is not possible, return __-1__.
+
+    #### Example
+    __*k* = 9__
+    __*A* = [2, 7, 3, 6, 4, 6]__
+
+    The smallest values are __2, 3__.
+    Remove them then return __2 + 2 x 3 = 8__ to the array. Now __*A* = [8, 7, 6, 4, 6]__.
+    Remove __4, 6__ and return __4 + 6 x 2 = 16__ to the array. Now __*A* = [16, 8, 7, 6]__.
+    Remove __6, 7__, return __6 + 2 x 7 = 20__ and __*A* = [20, 16, 8, 7]__.
+    Finally, remove __8, 7__ and return __7 + 2 x 8 = 23__ to __*A*__. Now __*A* = [23, 20, 16]__.
+    All values are __>= *k* = 9__ so the process stops after __4__ iterations. Return __4__.
+
+    #### Function Description
+    Complete the cookies function in the editor below.
+
+    cookies has the following parameters:
+
+    - int k: the threshold value
+    - int A[n]: an array of sweetness values
+    #### Returns
+
+    - int: the number of iterations required or __-1__
