@@ -8,6 +8,7 @@
 6. ## [Sorting](#sorting)
 7. ## [Array](#array)
 8. ## [Implementation](#implementation)
+9. ## [Heap](#heap)
 
 
 ### Strings
@@ -474,3 +475,47 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     __*word* = *'torn'*__
 
     The heights are __*t* = 2, *o* = 1, *r* = 1__ and __*n* = 1__. The tallest letter is __2__  high and there are __4__  letters. The hightlighted area will be __2 * 4 = 8*mm*__  so the answer is  __8__ .
+
+
+### Heap
+
+- [QHEAP1](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q-heap.py) This question is designed to help you get a better understanding of basic heap operations.
+
+    There are __3__ types of query:
+
+    - "__1 *v*__" - Add an element __*v*__ to the heap.
+    - "__2 *v*__" - Delete the element __*v*__ from the heap.
+    - "__3__" - Print the minimum of all the elements in the heap.
+
+    __NOTE:__ It is guaranteed that the element to be deleted will be there in the heap. Also, at any instant, only distinct elements will be in the heap.
+
+    #### Input Format
+
+    The first line contains the number of queries, __*Q*__.
+    Each of the next __*Q*__ lines contains one of the __3__ types of query.
+
+    #### Constraints
+    __1 <= *Q* <= 10<sup>5</sup>__
+    __-10<sup>5</sup> <= *v* <= 10<sup>9</sup>__
+
+    #### Output Format
+
+    For each query of type __3__, print the minimum value on a single line.
+
+    #### Sample Input
+    <pre>
+    STDIN       Function
+    -----       --------
+    5           Q = 5
+    1 4         insert 4
+    1 9         insert 9
+    3           print minimum
+    2 4         delete 4
+    3           print minimum
+    </pre>
+
+    #### Sample Output
+    <pre>
+    4  
+    9 
+    </pre>
