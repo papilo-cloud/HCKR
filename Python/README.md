@@ -13,13 +13,13 @@
 
 ### Strings
 
-- [Anagram](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/strings/anagram.py) Two words are anagrams of one another if their letters can be rearranged to form the other word.
+- [Anagram](https://github.com/papilo-cloud/HCKR/blob/main/Python/strings/anagram.py) Two words are anagrams of one another if their letters can be rearranged to form the other word.
 
     Given a string, split it into two contiguous substrings of equal length. Determine the minimum number of characters to change to make the two substrings into anagrams of one another.
 
     #### Returns
     - int: the minimum number of characters to change or -1.
-- [Pangrams](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/strings/pangram.py) A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
+- [Pangrams](https://github.com/papilo-cloud/HCKR/blob/main/Python/strings/pangram.py) A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
 
     #### Example
     *s* = __The quick brown box jumps over the lazy dog__
@@ -479,7 +479,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
 ### Heap
 
-- [QHEAP1](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q_heap.py) This question is designed to help you get a better understanding of basic heap operations.
+- [QHEAP1](https://github.com/papilo-cloud/HCKR/blob/main/Python/Heap/q_heap.py) This question is designed to help you get a better understanding of basic heap operations.
 
     There are __3__ types of query:
 
@@ -520,7 +520,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     9 
     </pre>
 
-- [Jesse and Cookies](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/cookies.py) Jesse loves cookies and wants the sweetness of some cookies to be greater than value __*k*__. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
+- [Jesse and Cookies](https://github.com/papilo-cloud/HCKR/blob/main/Python/Heap/cookies.py) Jesse loves cookies and wants the sweetness of some cookies to be greater than value __*k*__. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
 
     sweetness = (__1__ x Least sweet cookie + __2__ x 2nd least sweet cookie).
 
