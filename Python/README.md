@@ -479,7 +479,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
 
 ### Heap
 
-- [QHEAP1](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q-heap.py) This question is designed to help you get a better understanding of basic heap operations.
+- [QHEAP1](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q_heap.py) This question is designed to help you get a better understanding of basic heap operations.
 
     There are __3__ types of query:
 
@@ -520,7 +520,7 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     9 
     </pre>
 
-- [Jesse and Cookies](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/q-heap.py) Jesse loves cookies and wants the sweetness of some cookies to be greater than value __*k*__. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
+- [Jesse and Cookies](https://github.com/papilo-cloud/Python_Data_Structures-/blob/main/Hackerrank/Heap/cookies.py) Jesse loves cookies and wants the sweetness of some cookies to be greater than value __*k*__. To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
 
     sweetness = (__1__ x Least sweet cookie + __2__ x 2nd least sweet cookie).
 
