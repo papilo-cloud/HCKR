@@ -348,6 +348,30 @@ There are three values that differ by __*k* = 1__: __2 - 1 = 1__, __3 - 2 = 1__,
     For the above tree, the level order traversal is
     __1-> 2-> 5-> 6__.
 
+7. [Is This a Binary Search Tree?](https://github.com/papilo-cloud/HCKR/blob/main/Python/Tree/is_binary_tree.py) Given the root node of a binary tree, can you determine if it's also a binary search tree?
+
+    Complete the function in your editor below, which has  parameter: a pointer to the root of a binary tree. It must return a boolean denoting whether or not the binary tree is a binary search tree. You may have to write one or more helper functions to complete this challenge.
+
+    #### Input Format
+
+    You are not responsible for reading any input from stdin. Hidden code stubs will assemble a binary tree and pass its root node to your function as an argument.
+
+    #### Constraints
+
+    - __0 <= *data* <= 10<sup>4</sup>__
+
+    #### Output Format
+
+    You are not responsible for printing any output to stdout. Your function must return true if the tree is a binary search tree; otherwise, it must return false. Hidden code stubs will print this result as a Yes or No answer on a new line.
+
+    #### Sample Input
+
+    ![Image](https://s3.amazonaws.com/hr-challenge-images/8131/1461698192-c9e0fcb28d-BTinput.png)
+
+    #### Sample Output
+
+    No
+
 
 ### Sorting
 1. [Closest Numbers](https://github.com/papilo-cloud/HCKR/blob/main/Python/sorting/closest_num.py) Sorting is useful as the first step in many different tasks. The most common task is to make finding things easier, but there are other uses as well. In this case, it will make it easier to determine which pair or pairs of elements have the smallest absolute difference between them.
